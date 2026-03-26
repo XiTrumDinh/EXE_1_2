@@ -1,0 +1,55 @@
+ body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .container {
+            width: 700px;
+            margin: auto;
+        }
+
+        .header,
+        .footer {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .content {
+            border: 1px solid black;
+            padding: 20px;
+            margin-top: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: center;
+        }
+
+        .pagination {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .pagination a {
+            margin: 0 5px;
+        }
